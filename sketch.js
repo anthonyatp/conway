@@ -87,7 +87,8 @@ function handleMouse(type) {
     stroke(0, 0);
     rect(x, y, cellSize, cellSize);
   } else {
-    cell.state = 1;
+    grid[colIdx][rowIdx] = new Cell(1);
+
     fill(255);
     stroke(0, 0);
     rect(x, y, cellSize, cellSize);
