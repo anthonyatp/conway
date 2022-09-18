@@ -1,2 +1,3 @@
-# conway
-Conway's game of life
+# Conway's game of life
+
+Built with p5.js
